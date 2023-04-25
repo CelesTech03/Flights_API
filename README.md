@@ -1,6 +1,16 @@
 # Flights API
 Developed a Flights API using .NET and Entity Framework.
 
+## Requirements:
+
+The following functionality is completed:
+
+- [x] At least 3 different API endpoints and 3 different HTTP methods
+- [x] API follows the MVC (Model-View-Controller) software design pattern
+- [x] There must be at least one controller
+- [x] Collection of models includes a basic response model that is consistently returned at the end of every request
+- [x] Database has at least two tables with two primary keys, one foreign key, and one additional constraint on a column that is not a primary key or a foreign key
+
 ## Some endpoints that clients can use:
 
 | HTTP Method | Endpoint                   | Description                                                       | Request Body  | Response Body    |
@@ -16,10 +26,6 @@ Developed a Flights API using .NET and Entity Framework.
 | `GET`       | /api/bookings              | Get all bookings                                                  | None          | Array of bookings|
 | `PUT`       | /api/bookings/{id}         | Update the details of an existing booking with the specified id   | Booking       | None             |
 | `DELETE`    | /api/bookings/{id}         | Delete the booking specified by id                                | None          | None             |
-
-
-
-
 
 ## Database Diagram 
 
