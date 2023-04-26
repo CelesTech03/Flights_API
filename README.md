@@ -15,17 +15,12 @@ The following functionality is completed:
 
 | HTTP Method | Endpoint                   | Description                                                       | Request Body  | Response Body    |
 |-------------|----------------------------|-------------------------------------------------------------------|---------------|------------------|
-| `GET`       | /api/flights               | Get all flights                                                   | None          | Array of flights |
-| `POST`      | /api/flights               | Add a new flight                                                  | Flight        | Flight           |
-| `PUT`       | /api/flights/{id}          | Update the details of an existing flight with the specified id    | Flight        | None             |
-| `DELETE`    | /api/flights/{id}          | Delete the flight specified by id                                 | None          | None             |
-| `GET`       | /api/passengers/{id}       | Get a passenger by ID                                             | None          | Passenger        |
-| `POST`      | /api/passengers            | Add a new passenger                                               | Passenger     | Passenger        |
-| `PUT`       | /api/passengers/{id}       | Update the details of an existing passenger with the specified id | Passenger     | None             |
-| `DELETE`    | /api/passengers/{id}       | Delete the passenger specified by id                              | None          | None             |
-| `GET`       | /api/bookings              | Get all bookings                                                  | None          | Array of bookings|
-| `PUT`       | /api/bookings/{id}         | Update the details of an existing booking with the specified id   | Booking       | None             |
-| `DELETE`    | /api/bookings/{id}         | Delete the booking specified by id                                | None          | None             |
+| `GET`       | /api/flights               | Get all flights                                                   | None          |![GET :api:flights](https://user-images.githubusercontent.com/57969388/234672672-74993672-664c-49db-a843-ae13b47d1971.png)|
+| `DELETE`    | /api/flights/{id}          | Delete the flight specified by id                                 | None          |![DELETE :api:flights:{id}](https://user-images.githubusercontent.com/57969388/234673118-150a321c-ceb6-4cf8-bafb-b37a7219a057.png)|
+| `GET`       | /api/passengers/{id}       | Get a passenger by ID                                             | None          |![GET :api:passengers:{id}](https://user-images.githubusercontent.com/57969388/234673892-015641dd-388a-4380-9d7f-6e1f13c83227.png)|
+| `POST`      | /api/passengers            | Add a new passenger                                               |![POST :api:passengers request](https://user-images.githubusercontent.com/57969388/234676606-4b6ae8ae-c642-456d-adc4-f6a995d26d81.png)|![POST :api:passengers response](https://user-images.githubusercontent.com/57969388/234676688-4161a5f4-227d-424c-ac52-41b1da2b8f32.png)|
+| `PUT`       | /api/passengers/{id}       | Update the details of an existing passenger with the specified id |![PUT :api:passengers:{id} request](https://user-images.githubusercontent.com/57969388/234677405-04dcdff5-e5cf-4e13-ba20-1d270c583e35.png)|![PUT :api:passengers:{id} response](https://user-images.githubusercontent.com/57969388/234677476-5a57adf8-9909-4555-a423-883a656ae174.png)|
+| `PUT`       | /api/bookings/{id}         | Update the details of an existing booking with the specified id   |![PUT :api:bookings:{id} request](https://user-images.githubusercontent.com/57969388/234674986-ea9e1b67-f95d-4141-ba0d-3dfea98d998f.png) |![PUT :api:bookings:{id} response](https://user-images.githubusercontent.com/57969388/234675064-bb7cd856-1536-4b41-8522-182a26cac2d2.png)|
 
 ## Database Diagram 
 
